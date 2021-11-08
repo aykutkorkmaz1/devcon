@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "banner": "https://raw.githubusercontent.com/aykutkorkmaz1/SCnE/master/src/img/banners/18-october-apple.png",
+        "event_date": "October 18, 2021",
+        "featured_slogan": "Unleashed.",
+        "event_name": "Apple Event"
+    },
+    {
+        "id": 2,
+        "banner": "https://raw.githubusercontent.com/aykutkorkmaz1/SCnE/master/src/img/banners/aws-2021.png",
+        "event_date": "November 29 - December 3, 2021",
+        "featured_slogan": "re:Invent",
+        "event_name": "Celebrating 10 years of re:Invent"
+    }
+]

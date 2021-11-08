@@ -1,0 +1,68 @@
+.event-wrapper {
+  margin: 0px auto;
+
+  width: fit-content;
+  height: auto;
+  text-align: center;
+}
+
+.event-info {
+  margin: 0px;
+  padding: 20px;
+
+  width: auto;
+  display: flex;
+  flex-direction: row;
+
+  text-align: left;
+}
+
+.E-logo {
+  width: 35px;
+  padding-right: 20px;
+  height: auto;
+  vertical-align: center;
+
+  margin: auto;
+}
+
+.E-event-name {
+  margin: 0px;
+  width: fit-content;
+
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.E-event-date {
+  margin: 0px;
+
+  width: fit-content;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.desc {
+  padding-left: 20px;
+  max-width: 550px;
+  margin: 0px;
+
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.video-embed {
+  margin: 0px auto;
+
+  width: auto;
+  height: auto;
+}
+
+.video {
+  width: 800px;
+  height: 450px;
+  margin: 0px;
+
+  border: 2px solid #000;
+  border-radius: 5px;
+}

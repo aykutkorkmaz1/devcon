@@ -1,0 +1,123 @@
+.wrapper-upcoming {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.UEI-event-big-wrapper {
+  position: relative;
+
+  color: #fff;
+  margin: 0px auto 10px auto;
+  width: 700px;
+  height: 250px;
+  background-size: cover;
+}
+
+.UEI-upcoming-info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 25px;
+  left: 25px;
+  /* padding-top: 20px;
+    padding-left: 25px; */
+  margin: auto;
+  float: left;
+
+  transition: 0.3s;
+}
+
+.UEI-upcoming-info:active,
+.UEI-upcoming-info:hover {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 30px;
+  left: 30px;
+  /* padding-top: 20px;
+    padding-left: 25px; */
+  margin: auto;
+  float: left;
+
+  transition: 0.1s;
+}
+
+.UEI-upcoming-info p {
+  text-align: left;
+}
+
+.UEI-background {
+  border-radius: 5px;
+  margin: 0px auto;
+  width: 100%;
+  height: 100%;
+}
+
+.UEI-logo {
+  margin: 0px;
+  padding: 0px;
+  width: 40px;
+  height: auto;
+  float: left;
+}
+
+.UEI-slogan {
+  width: fit-content;
+  margin: 0px;
+  padding-bottom: 3px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.UEI-event-name,
+.UEI-event-date {
+  width: fit-content;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.button-ios-style {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+
+  width: 100px;
+  height: 25px;
+  margin: 0px;
+  background-color: #0071e3;
+  border-radius: 5px;
+
+  transition: 0.3s;
+}
+
+.button-ios-style:hover,
+.button-ios-style:active {
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.button-ios-style p {
+  color: #fff;
+  margin: 0px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.header {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+}
+
+.header p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px auto;
+  font-size: 18px;
+  font-weight: 500;
+}
