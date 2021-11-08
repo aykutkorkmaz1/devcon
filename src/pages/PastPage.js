@@ -1,10 +1,10 @@
 import React from 'react';
-import './HomePage.css';
+import './PastPage.css';
 import Navbar from '../components/Navbar';
-import UpcomingEventsItem from '../components/UpcomingEventsItem';
+import PastEventsItem from '../components/PastEventsItem';
 import { Link } from 'react-router-dom';
 
-function UpcomingPage () {
+function PastPage () {
     return (
         <div>
 
@@ -14,10 +14,10 @@ function UpcomingPage () {
                     <p>Back To Main Page</p>
                 </div>
             </Link>
-            <UpcomingEventsItem />
+            <PastEventsItem />
 
         </div>
     );
 }
 
-export default UpcomingPage;
+export default PastPage;

@@ -1,0 +1,37 @@
+@import url("../components/Navbar.css");
+@import url("../components/PastEventsItem.css");
+
+* {
+  margin: 0;
+}
+
+.link {
+  margin: auto;
+  text-decoration: none;
+  color: inherit;
+}
+
+.back-main {
+  width: fit-content;
+  margin: 10px auto;
+  border: 2px solid #000;
+  border-radius: 5px;
+
+  transition: 0.3s;
+}
+
+.back-main:active,
+.back-main:hover,
+.back-main:focus {
+  border: 2px solid #0071e3;
+  border-radius: 5px;
+
+  transition: 0.3s;
+}
+
+.back-main p {
+  text-align: center;
+  padding: 20px;
+  font-size: 17px;
+  font-weight: 500;
+}
