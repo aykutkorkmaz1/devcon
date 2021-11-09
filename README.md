@@ -1,3 +1,22 @@
+# Software Conferences and Events (SCNE)
+
+![Tech](https://img.shields.io/badge/reactJS-9904d9?logo=react)
+![iOS](https://img.shields.io/badge/in_progress-9904d9?logo=ios)
+![Android](https://img.shields.io/badge/in_progress-9904d9?logo=android)
+
+![GitHub branch checks state](https://img.shields.io/github/checks-status/aykutkorkmaz1/scne/master?label=branch%20Check&color=31ab2b)
+![GitHub deployments](https://img.shields.io/github/deployments/aykutkorkmaz1/scne/Production?label=deploy%20status&color=31ab2b)
+![GitHub last commit](https://img.shields.io/github/last-commit/aykutkorkmaz1/scne?color=31ab2b)
+![GitHub issues](https://img.shields.io/github/issues/aykutkorkmaz1/scne?color=31ab2b)\
+![GitHub repo size](https://img.shields.io/github/repo-size/aykutkorkmaz1/SCNE)
+
+## Description About the App
+
+The SCnE is abbreviation of Software Conferences and Events. It's fully free app. It allows watching events to the users. Users can watch the past events, or view upcoming events. Available scripts are `npm start`, `npm test`, `npm run build`
+
+[Software Conferences and Events Webpage](https://scne.vercel.app)
+
+<!--
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +87,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-->
