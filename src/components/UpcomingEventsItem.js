@@ -1,6 +1,8 @@
 import React from 'react';
 import './UpcomingEventsItem.css';
 
+import { Link } from 'react-router-dom';
+
 import UpcomingIndicator from './upcoming_indicator';
 import ButtonIosStyle from './button_ios_style';
 
@@ -26,7 +28,7 @@ var UpcomingEventsItem =()=> {
                         <p className = "UEI-event-name"> Apple Event </p>
                         <p className = "UEI-event-date"> October 18, 2021 </p>
                     </div>
-                <ButtonIosStyle text = "Watch" />
+                <Link className="link" to="/event-page"> <ButtonIosStyle text = "Watch Live" /> </Link>
             </div>
 
             <div className = "UEI-event-big-wrapper">
@@ -38,7 +40,7 @@ var UpcomingEventsItem =()=> {
                         <p className = "UEI-event-name"> Celebrating 10 years of re:Invent </p>
                         <p className = "UEI-event-date"> November 29 - December 3, 2021 </p>
                     </div>
-                <ButtonIosStyle text = "Watch" />
+                <Link className="link" to="/event-page"> <ButtonIosStyle text = "Watch Live" /> </Link>
             </div>
 
         </div>

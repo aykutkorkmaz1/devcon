@@ -10,6 +10,7 @@ import {
 import App from "./App";
 import UpcomingPage from './pages/UpcomingPage';
 import PastPage from './pages/PastPage';
+import EventPage from './pages/EventPage';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Route path="/" element={<App />} />
       <Route path="/upcoming-events" element={<UpcomingPage />} />
       <Route path="/past-events" element={<PastPage />} />
+      <Route path="/event-page" element={<EventPage />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

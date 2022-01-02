@@ -9,7 +9,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/aykutkorkmaz1/scne?color=31ab2b)
 ![GitHub issues](https://img.shields.io/github/issues/aykutkorkmaz1/scne?color=31ab2b)\
 ![GitHub repo size](https://img.shields.io/github/repo-size/aykutkorkmaz1/SCNE)
-![Complete Rate](https://img.shields.io/badge/complete_rate-_85_-9904d9)
+![Complete Rate](https://img.shields.io/badge/complete_rate-_%_90_-9904d9)
 
 ## Description About the App
 

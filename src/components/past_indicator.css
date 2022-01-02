@@ -17,12 +17,9 @@
 }
 
 .past-indicator p {
-  width: fit-content;
-  height: fit-content;
-  margin: 0px auto;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 500;
+  margin: auto;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 @keyframes blink-indicator {

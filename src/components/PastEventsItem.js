@@ -1,6 +1,8 @@
 import React from 'react';
 import './PastEventsItem.css';
 
+import { Link } from 'react-router-dom';
+
 import ButtonIosStyle from './button_ios_style';
 import PastIndicator from './past_indicator';
 
@@ -33,7 +35,7 @@ var PastEvents =()=> {
                         <p className = "PE-event-name"> Apple Event </p>
                         <p className = "PE-event-date"> September 14, 2021 </p>
                     </div>
-                    <ButtonIosStyle text = "Watch" />
+                    <Link className="link" to="/event-page"> <ButtonIosStyle text = "Watch" /> </Link>
                 </div>
 
                 <div className = "PE-event-big-wrapper">
@@ -44,7 +46,7 @@ var PastEvents =()=> {
                         <p className = "PE-event-name"> Apple Event </p>
                         <p className = "PE-event-date"> November 10, 2020 </p>
                     </div>
-                    <ButtonIosStyle text = "Watch" />
+                    <Link className="link" to="/event-page"> <ButtonIosStyle text = "Watch" /> </Link>
                 </div>
 
                 <div className = "PE-event-big-wrapper">
@@ -55,7 +57,7 @@ var PastEvents =()=> {
                         <p className = "PE-event-name"> Apple Event </p>
                         <p className = "PE-event-date"> September 13, 2020 </p>
                     </div>
-                    <ButtonIosStyle text = "Watch" />
+                    <Link className="link" to="/event-page"> <ButtonIosStyle text = "Watch" /> </Link>
                 </div>
 
                 <div className = "PE-event-big-wrapper">
@@ -66,7 +68,7 @@ var PastEvents =()=> {
                         <p className = "PE-event-name"> Google I/O </p>
                         <p className = "PE-event-date"> May 18 - May 20, 2021 </p>
                     </div>
-                    <ButtonIosStyle text = "Watch" />
+                    <Link className="link" to="/event-page"> <ButtonIosStyle text = "Watch" /> </Link>
                 </div>
 
             </div>
