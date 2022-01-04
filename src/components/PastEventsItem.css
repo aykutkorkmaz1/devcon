@@ -25,22 +25,17 @@
   margin: auto;
   float: left;
 
-  transition: 0.3s;
+  border-bottom: 2px solid transparent;
+  border-radius: 2px;
+
+  transition: 0.2s;
 }
 
 .PE-upcoming-info:active,
 .PE-upcoming-info:hover {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  bottom: 30px;
-  left: 30px;
-  /* padding-top: 20px;
-    padding-left: 25px; */
-  margin: auto;
-  float: left;
-
-  transition: 0.1s;
+  transition: 0.5s;
+  border-bottom: 2px solid #fff;
+  border-radius: 2px;
 }
 
 .PE-background {
@@ -75,34 +70,6 @@
   padding: 0px;
   font-size: 15px;
   font-weight: 500;
-}
-
-.button-ios-style {
-  position: absolute;
-  right: 25px;
-  bottom: 25px;
-
-  width: 100px;
-  height: 25px;
-  margin: 0px;
-  background-color: #0071e3;
-  border-radius: 5px;
-
-  transition: 0.3s;
-}
-
-.button-ios-style:hover,
-.button-ios-style:active {
-  border-radius: 20px;
-  transition: 0.3s;
-}
-
-.button-ios-style p {
-  color: #fff;
-  margin: 0px;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 400;
 }
 
 .header {

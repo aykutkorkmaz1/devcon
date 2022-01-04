@@ -1,0 +1,31 @@
+.button-ios-style {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+
+  width: 100px;
+  height: auto;
+  margin: 0px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+
+  transition: 0.3s;
+}
+
+.button-ios-style:hover,
+.button-ios-style:active {
+  background-color: #0071e3;
+  border: 1px solid #0071e3;
+  border-radius: 50px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.button-ios-style p {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  padding: 3px;
+  font-weight: 400;
+}

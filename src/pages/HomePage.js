@@ -33,7 +33,7 @@ export default function HomePage() {
                         <Faq />
   
                         <div className = "footer">
-                          <p>All rights reserved. Aykut Korkmaz, 2021.</p>
+                          <p>MIT License. Aykut Korkmaz, 2022.</p>
                         </div>
                       </div>
                 </div>

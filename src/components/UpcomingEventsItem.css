@@ -80,6 +80,7 @@
   font-weight: 500;
 }
 
+/*
 .button-ios-style {
   position: absolute;
   right: 25px;
@@ -102,11 +103,11 @@
 
 .button-ios-style p {
   color: #fff;
-  margin: 0px;
   text-align: center;
   font-size: 15px;
   font-weight: 400;
 }
+*/
 
 .header {
   width: fit-content;
