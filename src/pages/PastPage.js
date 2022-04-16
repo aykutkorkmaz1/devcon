@@ -8,12 +8,7 @@ function PastPage () {
     return (
         <div>
 
-            <Navbar text="Software Conferences and Events" />
-            <Link className="link" to="/">
-                <div className="back-main">
-                    <p>Back To Main Page</p>
-                </div>
-            </Link>
+            <Navbar />
             <PastEventsItem />
 
         </div>

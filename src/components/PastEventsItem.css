@@ -24,18 +24,6 @@
       padding-left: 25px; */
   margin: auto;
   float: left;
-
-  border-bottom: 2px solid transparent;
-  border-radius: 2px;
-
-  transition: 0.2s;
-}
-
-.PE-upcoming-info:active,
-.PE-upcoming-info:hover {
-  transition: 0.5s;
-  border-bottom: 2px solid #fff;
-  border-radius: 2px;
 }
 
 .PE-background {
@@ -69,19 +57,5 @@
   margin: 0px;
   padding: 0px;
   font-size: 15px;
-  font-weight: 500;
-}
-
-.header {
-  width: fit-content;
-  height: fit-content;
-  margin: 0px auto;
-}
-
-.header p {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 0px auto;
-  font-size: 18px;
   font-weight: 500;
 }

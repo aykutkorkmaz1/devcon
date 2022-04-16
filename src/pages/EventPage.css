@@ -7,32 +7,14 @@
 }
 
 .wrapper-event {
-  text-align: center;
-}
-
-.link {
   margin: auto;
-  text-decoration: none;
-  color: inherit;
-}
-
-.back-main {
-  width: fit-content;
-  margin: 10px auto;
-  border: 2px solid #000;
-  border-radius: 50px;
-
-  transition: 0.3s;
-}
-
-.back-main p {
   text-align: center;
-  padding: 20px;
-  font-size: 17px;
-  font-weight: 500;
 }
 
 .info-event {
+  text-align: left;
+  margin: auto;
+  width: 950px;
   padding: 20px;
 }
 
@@ -42,15 +24,32 @@
 }
 
 .event-name {
+  width: fit-content;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.date-bywho {
+  margin-top: 5px;
 }
 
 .date-bywho p {
-  font-size: 18px;
-  font-weight: 400;
+  width: fit-content;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .video-embed {
   margin-top: 20px;
+}
+
+hr {
+  margin-top: 10px;
+}
+
+.eventpage-desc {
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 10px;
 }

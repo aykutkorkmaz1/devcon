@@ -2,8 +2,6 @@ import React from 'react';
 import './UpcomingEventsItem.css';
 
 import { Link } from 'react-router-dom';
-
-import UpcomingIndicator from './upcoming_indicator';
 import ButtonIosStyle from './button_ios_style';
 
 import applelogo from '../img/logos/apple.png'
@@ -20,7 +18,6 @@ var UpcomingEventsItem =()=> {
             </div>
 
             <div className = "UEI-event-big-wrapper">
-                <UpcomingIndicator text = "UPCOMING" />
                 <img className = "UEI-background" src={appleevent_bg} />
                     <div className = "UEI-upcoming-info">
                         <img className = "UEI-logo" src={applelogo} />
@@ -32,7 +29,6 @@ var UpcomingEventsItem =()=> {
             </div>
 
             <div className = "UEI-event-big-wrapper">
-                <UpcomingIndicator text = "UPCOMING" />
                 <img className = "UEI-background" src={aws_bg} />
                     <div className = "UEI-upcoming-info">
                         <img className = "UEI-logo" src={awslogo} />

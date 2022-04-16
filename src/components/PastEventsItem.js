@@ -4,7 +4,6 @@ import './PastEventsItem.css';
 import { Link } from 'react-router-dom';
 
 import ButtonIosStyle from './button_ios_style';
-import PastIndicator from './past_indicator';
 
 import applelogo from '../img/logos/apple.png'
 import appleevent_bg from '../img/banners/18-october-apple.png'
@@ -28,7 +27,6 @@ var PastEvents =()=> {
             <div className = "wrapper-past">
 
                 <div className = "PE-event-big-wrapper">
-                    <PastIndicator text = "PAST" />
                     <img className = "PE-background" src={apple_september_14_2021} />
                     <div className = "PE-upcoming-info">
                         <img className = "PE-logo" src={applelogo} />
@@ -39,7 +37,6 @@ var PastEvents =()=> {
                 </div>
 
                 <div className = "PE-event-big-wrapper">
-                    <PastIndicator text = "PAST" />
                     <img className = "PE-background" src={apple_november_10_2020} />
                     <div className = "PE-upcoming-info">
                         <img className = "PE-logo" src={applelogo} />
@@ -50,7 +47,6 @@ var PastEvents =()=> {
                 </div>
 
                 <div className = "PE-event-big-wrapper">
-                    <PastIndicator text = "PAST" />
                     <img className = "PE-background" src={apple_october_13_2020} />
                     <div className = "PE-upcoming-info">
                         <img className = "PE-logo" src={applelogo} />
@@ -61,7 +57,6 @@ var PastEvents =()=> {
                 </div>
 
                 <div className = "PE-event-big-wrapper">
-                    <PastIndicator text = "PAST" />
                     <img className = "PE-background" src={google_io_2021} />
                     <div className = "PE-upcoming-info">
                         <img className = "PE-logo" src={glogo} />

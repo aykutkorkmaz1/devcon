@@ -1,42 +1,49 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import logo from '../img/logos/logo.png';
 import Faq from '../components/Faq';
 
+import google from '../img/logos/google.svg';
+import apple from '../img/logos/apple.svg';
+import aws from '../img/logos/amazonaws.svg';
+import wwdc from '../img/logos/wwdc-logo-black.svg';
 import { Link } from 'react-router-dom';
 
 export default function HomePage() {
     return (
                 <div className="App">
-                      <Navbar text = "Software Conferences and Events" />
-                      <div className = "mainPageAll">
+
+                        <img className='main-welcome-logo' src={logo} />
   
-                        <div className = "welcome">
-                          <p>Welcome to the SCnE!</p>
-                        </div>
-  
-                        <div className = "event-selectors">
-                            <Link className="link" to="/upcoming-events">
-                            <div className = "event-select">
-                              <h3>Upcoming Events</h3>
-                              <p>See the all latest upcoming events. Don't miss live streams!</p>
+                        <p className='main-header'>
+                          Welcome to DevCon!
+                        </p>
+
+                        <p className='main-subs'>
+                          Now with DevCon, you can track upcoming developer events and
+                          conferences from one platform, or watch a replay of the event you missed. <br />
+                          Completely free, no extra fees.
+                        </p>
+
+                        <div className='main-buttons'>
+                          <Link className='link' to='/upcoming-events'>
+                            <div className='main-event-chooser'>
+                              <p>Upcoming Events</p>
                             </div>
-                            </Link>
-  
-                            <Link className="link" to="/past-events">
-                            <div className = "event-select">
-                                <h3>Past Events</h3>
-                                <p>See the all past events. Watch the stream records!</p>
+                          </Link>
+                          <Link className='link' to='/past-events'>
+                            <div className='main-event-chooser'>
+                              <p>Past Events</p>
                             </div>
-                            </Link>
+                          </Link>
                         </div>
-  
-                        <Faq />
-  
-                        <div className = "footer">
-                          <p>Creative Commons License. Aykut Korkmaz, 2022.</p>
-                          <p>Sponsored by MillSaps.</p>
+
+                        <div className='only-now'>
+                          <img className='main-apple' src={apple} />
+                          <img className='main-wwdc' src={wwdc} />
+                          <img className='main-google' src={google} />
+                          <img className='main-aws' src={aws} />
                         </div>
-                      </div>
+
                 </div>
     );
   }

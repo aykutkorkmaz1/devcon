@@ -12,94 +12,83 @@
   color: inherit;
 }
 
-/* UpcomingEventsItem.js */
-
-/* PastEvents.js */
-
-/* Indicators */
-
-/* Main Page Configs */
-
-.mainPageAll {
-  margin: 0px auto;
-  height: fit-content;
-  width: fit-content;
-  padding: 20px;
+.main-welcome-logo {
+  margin-top: 10vh;
+  margin-bottom: 2em;
+  width: 250px;
 }
 
-.header {
-  width: fit-content;
-  height: fit-content;
+.main-header {
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.main-subs {
+  font-size: 22px;
+  width: 60%;
+  margin: auto;
+}
+
+.main-buttons {
+  padding-top: 2em;
+  width: 30em;
+  justify-content: space-between;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  margin: 0px;
-}
-
-.header p {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 0px;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.event-selectors {
-  max-width: 600px;
-  margin: 20px auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
-.event-select {
+.main-event-chooser {
   width: 200px;
-  height: 100px;
-  margin: 20px 20px;
-  padding: 15px;
+  height: 50px;
+  background-color: #fff;
+  border: 2px solid #007BFF;
+  border-radius: 8px;
+  color: #007BFF;
 
-  display: flex;
-  flex-direction: column;
-  border: 2px solid #000;
-  border-radius: 5px;
-
-  transition: 0.4s;
+  transition: ease-out 0.3s;
 }
 
-.event-select:active,
-.event-select:hover {
-  border: 2px solid #0071e3;
-  color: #0071e3;
-  border-radius: 10px;
+.main-event-chooser:hover {
+  background-color: #007BFF;
+  color: #fff;
+
+  transition: ease-in-out 0.3s;
 }
 
-.event-select p {
-  width: auto;
-  text-align: center;
-  margin: 0px auto;
-  font-size: 15px;
-}
-
-.event-select h3 {
-  width: auto;
-  text-align: center;
-  margin: 0px auto;
-  padding-bottom: 5px;
+.main-event-chooser p {
   font-size: 18px;
+  font-weight: 600;
+  line-height: 50px;
 }
 
-.welcome {
-  width: auto;
-  margin: 0px auto;
-  padding: 10px;
+.only-now {
+  width: 800px;
+  margin: auto;
+  padding-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  height: 60px;
+  align-items: center;
 }
 
-.welcome p {
-  font-size: 22px;
-  font-weight: 500;
-  margin: 0px;
+.only-now img {
+  margin: auto;
 }
 
-.footer {
-  margin-top: 40px;
+.main-apple {
+  height: 55px;
+}
+
+.main-wwdc {
+  height: 60px;
+}
+
+.main-google {
+  height: 50px;
+}
+
+.main-aws {
+  height: 65px;
 }

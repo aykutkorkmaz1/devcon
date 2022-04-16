@@ -9,34 +9,27 @@ import { Link } from 'react-router-dom';
 export default function EventPage () {
     return (
         <div className='wrapper-event'>
-            <Navbar text = "Software Conferences and Events" />
-
-            <Link className="link" to="/">
-                <div className="back-main">
-                    <p>Back To Main Page</p>
-                </div>
-            </Link>
-
-            <div className = 'info-event'>
-                <img className = "event-logo" src={applelogo} />
-                <p className='event-name'>Unleashed</p>
-                    <div className='date-bywho'>
-                        <p className='event-bywho'>Apple Event</p>
-                        <p className='event-date'>October 18, 2021</p>
-                    </div>
+            <Navbar />
                 <div className='video-embed'>
                         <iframe src='https://www.youtube.com/embed/exM1uajp--A'
                             frameborder='0'
                             allow='autoplay; encrypted-media'
                             allowfullscreen
                             title='video'
-                            width='1000px'
-                            height='600px'
+                            width='900px'
+                            height='500px'
                         />
                 </div>
-            </div>
-
-
+                <div className = 'info-event'>
+                    <img className = "event-logo" src={applelogo} />
+                    <p className='event-name'>Unleashed</p>
+                        <div className='date-bywho'>
+                            <p>Apple Event</p>
+                            <p>October 18, 2021</p>
+                        </div>
+                    <hr />
+                    <p className='eventpage-desc'>Introducing the new MacBook Pro with M1 Pro or M1 Max, all-new AirPods, and HomePod mini in five bold colors.</p>
+                </div>
         </div>
     );
 }
