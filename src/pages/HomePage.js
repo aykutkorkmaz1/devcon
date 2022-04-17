@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../img/logos/logo.png';
 import Faq from '../components/Faq';
+import Footer from '../components/Footer';
 
 import google from '../img/logos/google.svg';
 import apple from '../img/logos/apple.svg';
@@ -44,6 +45,7 @@ export default function HomePage() {
                           <img className='main-aws' src={aws} />
                         </div>
 
+                      <Footer />
                 </div>
     );
   }

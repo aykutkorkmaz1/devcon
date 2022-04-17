@@ -3,6 +3,7 @@ import './Navbar.css';
 import { Link } from 'react-router-dom';
 
 import logo from '../img/logos/logo.png';
+import millsaps from '../img/logos/millsaps.png'
 
 var Navbar =(props)=> {
     return (
