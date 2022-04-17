@@ -1,91 +1,44 @@
-# Software Conferences and Events (SCNE)
+![](./src/img/readme-banner.png)
 
-![Tech](https://img.shields.io/badge/reactJS-9904d9?logo=react)
-![iOS](https://img.shields.io/badge/in_progress-9904d9?logo=ios)
-![Android](https://img.shields.io/badge/in_progress-9904d9?logo=android)
+# DevCon - One platform to track.
 
-![GitHub branch checks state](https://img.shields.io/github/checks-status/aykutkorkmaz1/scne/master?label=branch%20Check&color=31ab2b)
-![GitHub deployments](https://img.shields.io/github/deployments/aykutkorkmaz1/scne/Production?label=deploy%20status&color=31ab2b)
-![GitHub last commit](https://img.shields.io/github/last-commit/aykutkorkmaz1/scne?color=31ab2b)
-![GitHub issues](https://img.shields.io/github/issues/aykutkorkmaz1/scne?color=31ab2b)\
-![GitHub repo size](https://img.shields.io/github/repo-size/aykutkorkmaz1/SCNE)
-![Complete Rate](https://img.shields.io/badge/complete_rate-_90_-9904d9)
+![GitHub repo size](https://img.shields.io/github/repo-size/aykutkorkmaz1/devcon)
+![GitHub issues](https://img.shields.io/github/issues-raw/aykutkorkmaz1/devcon)
+![GitHub issues](https://img.shields.io/github/issues/aykutkorkmaz1/devcon)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/aykutkorkmaz1/devcon) <br />
+![GitHub forks](https://img.shields.io/github/forks/aykutkorkmaz1/devcon?style=social)
 
-## Description About the App
+> ![](./src/img/cc.png)
+>
+> <h3><strong>License CC BY-NC-SA 4.0</strong></h3>
+> © 2022. This work is licensed under a CC BY 4.0 license. 
+> <br>
 
-The SCnE is abbreviation of Software Conferences and Events. It's fully free app. It allows watching events to the users. Users can watch the past events, or view upcoming events. Available scripts are `npm start`, `npm test`, `npm run build`
+### You are free to:
 
-[Software Conferences and Events Webpage](https://scne.vercel.app)
+<ul>
+    <li> <strong> Share </strong> - copy and redistribute the material in any medium or format. </li>
+    <li> <strong> Adapt </strong> - remix, transform, and build upon the material. </li>
+</ul>
 
-<!--
-# Getting Started with Create React App
+The licensor cannot revoke these freedoms as long as you follow the license terms. <br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Under the following terms:
 
-## Available Scripts
+<ul>
+    <li> <strong> Attribution </strong> - You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. </li>
+    <li> <strong> NonCommercial </strong> - You may not use the material for commercial purposes. </li>
+    <li> <strong> ShareAlike </strong> - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. </li>
+</ul>
 
-In the project directory, you can run:
+<strong> No additional restrictions </strong> - You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+<br>
 
-### `npm start`
+> <h3><strong>Notices:</strong></h3>
+> You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. <br> No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## What is that?
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
--->
+Allows you to follow DevCon developer conferences. The platform where you can follow the world's most prestigious conferences without missing.
