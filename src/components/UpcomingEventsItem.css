@@ -138,19 +138,20 @@
 
   .UEI-upcoming-info {
     bottom: 45px;
+    left: 20px;
   }
 
   .UEI-upcoming-info:active,
   .UEI-upcoming-info:hover {
-    bottom: 25px;
-    left: 25px;
+    bottom: 45px;
+    left: 20px;
   }
 
   .UEI-logo {
-    width: 30px;
+    width: 28px;
   }
 
   .UEI-slogan {
-    font-size: 25px;
+    font-size: 20px;
   }
 }

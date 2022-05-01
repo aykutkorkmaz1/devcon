@@ -70,6 +70,7 @@
     flex-direction: column;
   }
 
+
   .PE-upcoming-info {
     bottom: 45px;
   }
@@ -77,5 +78,9 @@
   .PE-event-big-wrapper {
     width: 95%;
     height: auto;
+  }
+
+  .PE-logo {
+    width: 25px;
   }
 }

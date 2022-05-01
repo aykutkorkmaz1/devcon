@@ -1,6 +1,5 @@
 .footer-wrapper {
-    position: fixed;
-    bottom: 10px;
+    padding-top: 50px;
     text-align: center;
     margin: auto;
     height: fit-content;
