@@ -16,8 +16,6 @@ export default function EventPage () {
                             allow='autoplay; encrypted-media'
                             allowfullscreen
                             title='video'
-                            width='900px'
-                            height='500px'
                         />
                 </div>
                 <div className = 'info-event'>

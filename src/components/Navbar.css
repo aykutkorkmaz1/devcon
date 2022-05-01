@@ -9,3 +9,14 @@
   margin: 30px;
   width: 170px;
 }
+
+@media screen and (max-width: 400px) {
+  .navbar {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-logo {
+    width: 150px;
+  }
+}

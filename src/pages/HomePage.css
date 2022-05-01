@@ -93,3 +93,47 @@
 .main-aws {
   height: 45px;
 }
+
+@media screen and (max-width: 400px) {
+  .main-welcome-logo {
+      width: 250px;
+  }
+
+  .main-buttons {
+    width: 80%;
+  }
+
+  .main-event-chooser {
+    margin-top: 10px;
+  }
+
+  .main-header {
+    font-size: 30px;
+  }
+
+  .main-subs {
+    font-size: 20px;
+    width: 70%;
+  }
+  
+  .only-now {
+    width: 80%;
+    padding-top: 5vh;
+  }
+  
+  .main-apple {
+    height: 30px;
+  }
+  
+  .main-wwdc {
+    height: 35px;
+  }
+  
+  .main-google {
+    height: 25px;
+  }
+  
+  .main-aws {
+    height: 40px;
+  }
+}

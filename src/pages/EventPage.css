@@ -6,6 +6,15 @@
   font-family: "IBM Plex Sans", sans-serif;
 }
 
+iframe {
+  width: 900px;
+  height: 500px;
+}
+
+hr {
+  margin-top: 10px;
+}
+
 .wrapper-event {
   margin: auto;
   text-align: center;
@@ -43,13 +52,28 @@
   margin-top: 20px;
 }
 
-hr {
-  margin-top: 10px;
-}
-
 .eventpage-desc {
   text-align: left;
   font-weight: 500;
   font-size: 16px;
   padding-top: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  iframe {
+    width: 90%;
+    height: 220px;
+  }
+
+  .info-event {
+    width: 90%;
+  }
+  
+  .event-logo {
+    width: 40px;
+  }
+
+  .event-name {
+    font-size: 27px;
+  }
 }

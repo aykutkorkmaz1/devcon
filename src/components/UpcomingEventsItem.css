@@ -119,3 +119,38 @@
   font-size: 24px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 400px) {
+  .wrapper-upcoming {
+    width: 100%;
+  }
+
+  .header p{
+    font-size: 20px;
+  }
+
+  .UEI-event-big-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 200px;
+  }
+
+  .UEI-upcoming-info {
+    bottom: 45px;
+  }
+
+  .UEI-upcoming-info:active,
+  .UEI-upcoming-info:hover {
+    bottom: 25px;
+    left: 25px;
+  }
+
+  .UEI-logo {
+    width: 30px;
+  }
+
+  .UEI-slogan {
+    font-size: 25px;
+  }
+}

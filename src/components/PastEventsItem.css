@@ -59,3 +59,23 @@
   font-size: 15px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 400px) {
+  .wrapper-past {
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .PE-upcoming-info {
+    bottom: 45px;
+  }
+
+  .PE-event-big-wrapper {
+    width: 95%;
+    height: auto;
+  }
+}
