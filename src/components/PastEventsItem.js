@@ -24,6 +24,12 @@ var PastEvents =()=> {
                     <p>All Past Events</p>
                 </div>
 
+                <div className = "sub-header">
+                    <p>If you missed past events, you can find and watch them from the events listed below.
+                       If you can't find the event you're looking for, there's probably no replay of the event.
+                    </p>
+                </div>
+
             <div className = "wrapper-past">
 
                 <div className = "PE-event-big-wrapper">

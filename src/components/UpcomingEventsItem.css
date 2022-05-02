@@ -1,7 +1,20 @@
-.wrapper-upcoming {
-  width: auto;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
   height: auto;
   display: flex;
+  margin: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.wrapper-upcoming {
+  margin-top: 20px;
+  width: 900px;
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -117,16 +130,32 @@
 
 .header p {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+.sub-header {
+  font-size: 18px;
+  font-weight: 400;
+
 }
 
 @media screen and (max-width: 400px) {
+  .wrapper {
+    width: 100%;
+  }
+
   .wrapper-upcoming {
     width: 100%;
   }
 
   .header p{
     font-size: 20px;
+    width: 100%;
+  }
+
+  .sub-header {
+    width: 90%;
+    margin: auto;
   }
 
   .UEI-event-big-wrapper {
