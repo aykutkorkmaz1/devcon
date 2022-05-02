@@ -21,7 +21,7 @@ var PastEvents =()=> {
         <div className = "wrapper">
 
                 <div className = "header">
-                    <p>All Upcoming Events</p>
+                    <p>All Past Events</p>
                 </div>
 
             <div className = "wrapper-past">
